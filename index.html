@@ -16,14 +16,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+    <!--link da logo da aba do site-->
     <link type="image/svg" rel="icon" href="./assets/logo.svg" />
     <title>Easy Invest</title>
-    
+    <!--colocar autor, descrição e padrão de SEO respectivamente-->
     <meta name="author" content="Carlos" />
     <meta
       name="description"
-      content=" investir seguro e com ganhos que podem te surpreender, só aqui "
+      content=" investir seguro e com ganhos que podem te surpreender só aqui "
     />
     <meta name="robbots" content="index, follow" />
     <link rel="stylesheet" href="./style.css" />
@@ -197,13 +197,27 @@
           ><button id="click-2" class="transform"></button
           ><button id="click-3" class="transform"></button>
         </div>
+        
       </div>
     </section>
     <div class="separacao">.</div>
     <section id="Sobre">
+      <div class="tstodos">
+       <a href="#divh"><div class="ts" id="tsh">
+          <h3>Nossa História</h3>
+        </div></a> 
+       <a href="#divs"><div class="ts" id="tss">
+          <h3>Nossos Serviços</h3><div class="hidden" id="divh"></div>
+        </div></a> 
+       <a href="#divp"> <div class="ts" id="tsp">
+          <h3 id="branco">Nossos Planos</h3>
+          </a>
+        </div >
+      </div>
       <div class="itens">
         <div class="item" id="historia">
           <h3>Nossa História</h3>
+          
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eum
             hic dolorum dolore cupiditate aperiam minima ab consectetur quod. Id
@@ -211,7 +225,7 @@
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
             dolores similique, sed, autem itaque ea dolorem adipisci ipsam eum
             dolorum illum in tempore asperiores sit repellendus qui
-            reprehenderit vero architecto! Lorem ipsum, dolor sit amet
+            reprehenderit vero architecto! Lorem ipsum, dolor sit amet<div class="hidden" id="divs"></div>
             consectetur adipisicing elit. Neque porro, maiores illum beatae odio
             asperiores nostrum quam ex quod deleniti in voluptate numquam, dolor
             nam quo voluptates nulla veritatis facere.
@@ -219,6 +233,7 @@
         </div>
         <div class="item" id="servicos">
           <h3>Nossos Serviços</h3>
+          
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe vero
             debitis, eos non aperiam nostrum id doloremque assumenda sapiente?
@@ -227,7 +242,7 @@
             adipisicing elit. Odio, velit. Facere exercitationem commodi,
             officia nisi aspernatur soluta sunt vitae reprehenderit est odio
             eaque nihil quis? Reiciendis consequuntur reprehenderit est neque.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eveniet
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eveniet<div class="hidden" id="divp"></div>
             porro mollitia laudantium nisi iure adipisci libero alias aliquam
             minima blanditiis, illum illo commodi iusto sequi nemo nobis,
             consectetur tenetur.
@@ -235,7 +250,7 @@
         </div>
         <div class="item" id="planos">
           <h3>Nossos Planos</h3>
-          <p>
+          <p id="plano">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
             nobis aut omnis facilis sequi et sapiente amet qui repudiandae harum
             in provident commodi fugiat fuga minima reprehenderit beatae,
@@ -268,6 +283,7 @@
 
       <a href=""><button class="contact">endTwitter.com</button></a>
     </footer>
+
     <script src="./main.js"></script>
   </body>
 </html>

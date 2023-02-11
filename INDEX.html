@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Faustina:wght@800&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rufina:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--link da logo da aba do site-->
+    <link type="image/svg" rel="icon" href="./assets/logo.svg" />
+    <title>Easy Invest</title>
+    <!--colocar autor, descrição e padrão de SEO respectivamente-->
+    <meta name="author" content="Carlos" />
+    <meta
+      name="description"
+      content=" investir seguro e com ganhos que podem te surpreender só aqui "
+    />
+    <meta name="robbots" content="index, follow" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="" class="logo"><h1>Easy Invest</h1></a>
+      <nav>
+        <img
+          src="./assets/list.svg"
+          alt="icon list open"
+          class="show menu"
+          id="open"
+        />
+
+        <ul id="list">
+          <li><a class="item-list" href="#home">Início</a></li>
+          <li><a class="item-list" href="#news">Atualidades</a></li>
+          <li><a class="item-list" href="#Testemunhos">Testemunhos</a></li>
+          <li><a class="item-list" href="#Sobre">Sobre</a></li>
+          <li><a class="item-list" href="#contatos">Contatos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <nav class="hidden navegacao">
+      <img
+        src="./assets/x.svg"
+        alt="icon list close"
+        class="menu show"
+        id="close"
+      />
+      <ul class="hidden mostre">
+        <li class="add"><a class="item-list" href="#home">Início</a></li>
+        <li class="add"><a class="item-list" href="#news">Atualidades</a></li>
+        <li class="add">
+          <a class="item-list" href="#Testemunhos">Testemunhos</a>
+        </li>
+        <li class="add"><a class="item-list" href="#Sobre">Sobre</a></li>
+        <li class="add"><a class="item-list" href="#contatos">Contatos</a></li>
+      </ul>
+    </nav>
+    <div class="borda">.</div>
+
+    <main id="home">
+      <img
+        class="imagem-de-fundo"
+        src="./assets/graficos.jpg"
+        alt="imagem de fundo com graficos de operações"
+      />
+      <div class="view">
+        <div class="texts">
+          <a href=""><h2 class="titulo1">Investe na gente</h2></a>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque saepe
+            quis dicta. Delectus at temporibus necessitatibus quibusdam eos
+            voluptates maxime quasi consequuntur mollitia optio nobis, ab, ut
+            harum eveniet asperiores. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Numquam dolore, magni asperiores rerum est
+            distinctio officia esse accusantium possimus vitae repudiandae nemo
+            porro atque! Consequatur facilis doloribus nam aperiam harum!
+          </p>
+        </div>
+
+        <div class="buttons">
+          <a href="#contatos"><button class="enviar">Fale conosco</button></a>
+
+          <a href="#Testemunhos"
+            ><button class="ver">veja resultados</button></a
+          >
+        </div>
+      </div>
+    </main>
+    <div class="separacao">.</div>
+    <section class="anuncios" id="news">
+      <cards class="anuncio"
+        ><img src="./assets/grafico.svg" alt="grafico subindo" />
+        <h3 class="textoAnuncio">Altas</h3>
+        <p class="textoAnuncio">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+          suscipit excepturi laudantium reiciendis dicta numquam voluptatum
+          atque? Tenetur odit numquam vitae sit, similique reiciendis itaque
+          nisi repudiandae neque laborum quia.
+        </p></cards
+      >
+      <cards class="anuncio">
+        <img src="./assets/negative.svg" alt="mão fazendo sinal de negativo" />
+        <h3 class="textoAnuncio">baixas</h3>
+        <p class="textoAnuncio">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+          suscipit excepturi laudantium reiciendis dicta numquam voluptatum
+          atque? Tenetur odit numquam vitae sit, similique reiciendis itaque
+          nisi repudiandae neque laborum quia.
+        </p></cards
+      >
+      <cards class="anuncio">
+        <img src="./assets/future.svg" alt="lupa com sinal de positivo" />
+        <h3 class="textoAnuncio">previsões</h3>
+        <p class="textoAnuncio">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+          suscipit excepturi laudantium reiciendis dicta numquam voluptatum
+          atque? Tenetur odit numquam vitae sit, similique reiciendis itaque
+          nisi repudiandae neque laborum quia.
+        </p></cards
+      >
+    </section>
+    <div class="separacao">.</div>
+    <section class="Testemunhos" id="Testemunhos">
+      <h2>Olha só alguns dos relatos!</h2>
+      <div class="cartoes">
+        <div class="relatos">
+          <cards id="card-1" class="cards-perfil"
+            ><img
+              class="image-perfil ia"
+              src="./assets/perfil feliz.jpg"
+              alt="homem feliz"
+            />
+            <h3>Name</h3>
+            <p class="text-perfil ta">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam, ducimus, assumenda et explicabo illo quam, rerum eius
+              quaerat aliquid ratione perferendis omnis! Suscipit dignissimos
+              dolorem at culpa nobis ducimus assumenda? Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Nihil est ex reprehenderit
+              consectetur excepturi. Fuga officia, atque, placeat dicta
+              temporibus dolores magnam accusamus expedita itaque voluptatum hic
+              error odit molestiae?
+            </p></cards
+          >
+
+          <cards id="card-2" class="cards-perfil hidden"
+            ><img
+              class="image-perfil hidden ib"
+              src="./assets/perfil feliz 2.jpg"
+              alt="mulher feliz"
+            />
+            <h3>Name</h3>
+            <p class="text-perfil tb hidden">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam, ducimus, assumenda et explicabo illo quam, rerum eius
+              quaerat aliquid ratione perferendis omnis! Suscipit dignissimos
+              dolorem at culpa nobis ducimus assumenda? Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Nihil est ex reprehenderit
+              consectetur excepturi. Fuga officia, atque, placeat dicta
+              temporibus dolores magnam accusamus expedita itaque voluptatum hic
+              error odit molestiae?
+            </p></cards
+          >
+
+          <cards id="card-3" class="cards-perfil hidden"
+            ><img
+              class="image-perfil hidden ic"
+              src="./assets/perfil feliz 3.jpg"
+              alt="homem feliz"
+            />
+            <h3>Name</h3>
+            <p class="text-perfil tc hidden">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam, ducimus, assumenda et explicabo illo quam, rerum eius
+              quaerat aliquid ratione perferendis omnis! Suscipit dignissimos
+              dolorem at culpa nobis ducimus assumenda? Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Nihil est ex reprehenderit
+              consectetur excepturi. Fuga officia, atque, placeat dicta
+              temporibus dolores magnam accusamus expedita itaque voluptatum hic
+              error odit molestiae?
+            </p></cards
+          >
+        </div>
+        <div class="alterne">
+          <button id="click-1" class="transform selecionado"></button
+          ><button id="click-2" class="transform"></button
+          ><button id="click-3" class="transform"></button>
+        </div>
+      </div>
+    </section>
+    <div class="separacao">.</div>
+    <section id="Sobre">
+      <div class="itens">
+        <div class="item" id="historia">
+          <h3>Nossa História</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eum
+            hic dolorum dolore cupiditate aperiam minima ab consectetur quod. Id
+            delectus quasi odit laboriosam, a nam explicabo ipsam nisi suscipit.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
+            dolores similique, sed, autem itaque ea dolorem adipisci ipsam eum
+            dolorum illum in tempore asperiores sit repellendus qui
+            reprehenderit vero architecto! Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Neque porro, maiores illum beatae odio
+            asperiores nostrum quam ex quod deleniti in voluptate numquam, dolor
+            nam quo voluptates nulla veritatis facere.
+          </p>
+        </div>
+        <div class="item" id="servicos">
+          <h3>Nossos Serviços</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe vero
+            debitis, eos non aperiam nostrum id doloremque assumenda sapiente?
+            Voluptates minima eveniet unde aperiam eos quidem corrupti at
+            inventore adipisci! Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Odio, velit. Facere exercitationem commodi,
+            officia nisi aspernatur soluta sunt vitae reprehenderit est odio
+            eaque nihil quis? Reiciendis consequuntur reprehenderit est neque.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eveniet
+            porro mollitia laudantium nisi iure adipisci libero alias aliquam
+            minima blanditiis, illum illo commodi iusto sequi nemo nobis,
+            consectetur tenetur.
+          </p>
+        </div>
+        <div class="item" id="planos">
+          <h3>Nossos Planos</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            nobis aut omnis facilis sequi et sapiente amet qui repudiandae harum
+            in provident commodi fugiat fuga minima reprehenderit beatae,
+            eveniet velit! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Non alias omnis consequuntur saepe sunt quibusdam magnam, vel
+            enim error, aspernatur quae sed deserunt ducimus! Quasi doloribus
+            suscipit eveniet aperiam doloremque? Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Nostrum vero facere expedita animi
+            ullam corrupti ducimus architecto, cumque neque quam. Reiciendis,
+            dolorem. Labore necessitatibus tenetur natus atque, quam suscipit
+            laborum!
+          </p>
+          <a href="mailto:exemplo@exemplo.com"></a>
+          <button>Assine Aqui</button>
+        </div>
+      </div>
+    </section>
+    <div class="separacao">.</div>
+    <footer id="contatos">
+      <a href="tel: 1234567890"
+        ><button class="contact">+55(12)3456 7890</button></a
+      >
+
+      <a href="exemplo@exemplo.com"
+        ><button class="contact">exemplo@exemplo.com</button></a
+      >
+      <a href=""><button class="contact">endFacebook.com</button></a>
+
+      <a href=""><button class="contact">endInstagram.com</button></a>
+
+      <a href=""><button class="contact">endTwitter.com</button></a>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+const navigation = document.querySelector('.navegacao')
+const lista = document.querySelector('.mostre')
+const icone = document.querySelector('.menu')
+const icon = document.getElementById('close')
+const item = document.querySelectorAll('.item-list')
+
+icone.addEventListener('click', function () {
+  navigation.classList.toggle('hidden')
+  lista.classList.toggle('hidden')
+})
+icon.addEventListener('click', function () {
+  navigation.classList.add('hidden')
+  lista.classList.add('hidden')
+})
+
+for (const link of item) {
+  link.addEventListener('click', function () {
+    navigation.classList.add('hidden')
+    lista.classList.add('hidden')
+  })
+}
+const click_1 = document.getElementById('click-1')
+const click_2 = document.getElementById('click-2')
+const click_3 = document.getElementById('click-3')
+const carda = document.getElementById('card-1')
+const cardb = document.querySelector('#card-2')
+const cardc = document.getElementById('card-3')
+const ta = document.querySelector('.ta')
+const tb = document.querySelector('.tb')
+const tc = document.querySelector('.tc')
+const ia = document.querySelector('.ia')
+const ib = document.querySelector('.ib')
+const ic = document.querySelector('.ic')
+
+{
+  click_2.addEventListener('click', function () {
+    carda.classList.add('hidden')
+    cardc.classList.add('hidden')
+    ta.classList.add('hidden')
+    tc.classList.add('hidden')
+    ia.classList.add('hidden')
+    ic.classList.add('hidden')
+    tb.classList.remove('hidden')
+    ib.classList.remove('hidden')
+    cardb.classList.toggle('hidden')
+    click_2.classList.add('selecionado')
+    click_1.classList.remove('selecionado')
+    click_3.classList.remove('selecionado')
+  })
+}
+click_3.addEventListener('click', function () {
+  carda.classList.add('hidden')
+
+  ta.classList.add('hidden')
+  tb.classList.add('hidden')
+  ia.classList.add('hidden')
+  ib.classList.add('hidden')
+  tc.classList.remove('hidden')
+  ic.classList.remove('hidden')
+  cardc.classList.remove('hidden')
+  cardb.classList.add('hidden')
+  click_3.classList.add('selecionado')
+  click_1.classList.remove('selecionado')
+  click_2.classList.remove('selecionado')
+})
+click_1.addEventListener('click', function () {
+  cardc.classList.add('hidden')
+
+  tc.classList.add('hidden')
+  tb.classList.add('hidden')
+  ic.classList.add('hidden')
+  ib.classList.add('hidden')
+  ta.classList.remove('hidden')
+  ia.classList.remove('hidden')
+  carda.classList.remove('hidden')
+  cardb.classList.add('hidden')
+  click_1.classList.add('selecionado')
+  click_2.classList.remove('selecionado')
+  click_3.classList.remove('selecionado')
+})

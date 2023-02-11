@@ -385,9 +385,13 @@ footer {
     margin-left: 3vw;
     margin-right: 0;
   }
+  .item p {
+    font-size: small;
+  }
   #planos button {
-    width: 90%;
-    margin: 5%;
+    width: 98%;
+    margin: 1%;
+    font-size: small;
   }
   .cards-perfil {
     width: 75vw;
@@ -433,6 +437,12 @@ footer {
     flex-direction: column;
     position: fixed;
     z-index: 1;
+  }
+  .contact {
+    font-size: smaller;
+  }
+  footer {
+    height: 9rem;
   }
 }
 .hidden {
